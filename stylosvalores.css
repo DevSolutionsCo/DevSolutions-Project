@@ -1,0 +1,16 @@
+body{
+    background-color: #CFC8E3;
+    margin: 0;
+}
+.titu{
+    padding: 30px;
+    padding-top: 0px ;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 7vh;
+}
+
+.info{
+    padding: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
+}
