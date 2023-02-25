@@ -32,6 +32,12 @@ h1{
     filter:blur(0px);
 }
 
+
+.foto, foto:hover, .cont-text, .cont-text:hover {
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
 .cont-text{
     align-items: center;
     display: flex;
