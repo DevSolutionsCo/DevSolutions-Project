@@ -24,10 +24,12 @@ h1{
     height: 500px;
     left: 10%;
     filter: grayscale(80%);
+    filter: blur(5px);
 }
 
 .foto:hover{
     filter:saturate(170%);
+    filter:blur(0px);
 }
 
 .cont-text{
@@ -72,4 +74,20 @@ ul li{
     position: relative;
     top: 10px;
     width: 600px;
+}
+
+.ani2{
+    animation-duration: 4s;
+    animation-name: apear1;
+    animation-iteration-count:initial;
+    animation-direction:normal;
+}
+
+@keyframes apear1{
+    from{
+    opacity: 0;
+    }
+    to{
+    opacity: 1;
+    }
 }
