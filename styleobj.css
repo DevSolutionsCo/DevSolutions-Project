@@ -22,6 +22,7 @@
     display: flex;
     justify-content: center;
     z-index: 1;
+    text-align: center;
 }
     h1{
     font-family:monospace;
@@ -41,7 +42,7 @@
 .foto{
     align-items: center;
     width: 500px;;
-    left: 34%;
+    justify-content: center;
     display: flex;
     position: relative;
 }
@@ -52,6 +53,7 @@ figure{
     cursor: pointer;
     border-radius: 5px;
     box-shadow: 1px 5px 25px rgba(0,0,0,0.5);
+
 }
 
 figure img{
@@ -69,7 +71,7 @@ figure img:hover{
     background-image: url(imgs/fondomo.png);
     background-repeat: no-repeat;
     background-position: 100% 170%;
-    position:relative;
+    position:absolute;
 
 }
 
@@ -78,4 +80,10 @@ figure img:hover{
     font-family: monospace;
     text-align: center;
     left: 50%;
+}
+
+.cont{
+    justify-content: center;
+    text-align: center;
+    display: flex;
 }
