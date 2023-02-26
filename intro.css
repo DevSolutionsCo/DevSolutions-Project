@@ -13,7 +13,7 @@
 }
 
 #inicio .image img{
-    width: 60vh;
+    width: 100vh;
     animation: float 3s linear infinite;
 }
 
@@ -31,12 +31,14 @@
     color: white;
     text-transform: uppercase;
     margin: 0px 0px;
+    padding-left: 60px;
 }
 
 #inicio .content h4{
     font-size: 2.5rem;
     color: rgb(231, 219, 254);
     margin: 0px 0px;
+    padding-left: 60px;
 
 }
 
@@ -44,6 +46,7 @@
     font-size: 1.7rem;
     padding: 1rem 0;
     color: white;
+    padding-left: 60px;
 
 }
 
@@ -52,6 +55,8 @@
     font-size: 1.3rem;
     padding: 1rem 0;
     font-weight: bold;
+    margin-left: 60px;
+   
 }
 
 @media (max-width:730px){
@@ -61,13 +66,16 @@
 
     #inicio .image img{
         width: 100%;
+
     }
 
     #inicio .content h3{
         font-size: 3.6rem;
+        padding-left: 60px;
     }
     #inicio .content p{
         font-size: 1.5rem;
+        padding-left: 60px;
     }
 
 
