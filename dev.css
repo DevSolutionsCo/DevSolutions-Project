@@ -75,11 +75,13 @@ body{
     min-height: 1080px;
     min-width: 1720px;
     max-width: 1720px ;
-    min-height: 1020px;
+    min-height: 1080px;
 }
 
 .contentframe .frame{
     min-height: 100vh;
     min-width: 100%;
     padding-left: 90px;
+    padding-top: 100px;
+    
 }
