@@ -2,7 +2,7 @@
     background-image: url(imgs/fondo2.png);
     background-repeat: no-repeat;
     background-position: -5% 225%;
-    position:relative;
+    position:absolute;
 }
 h1{
     font-family:monospace;
@@ -10,6 +10,7 @@ h1{
     color:rgb(100, 92, 215);
     text-align: center;
     font-weight:bold;
+    justify-content: center;
 }
 
 .cont-img{
@@ -42,6 +43,7 @@ h1{
     display: flex;
     justify-content: center;
     width: 100%;
+    text-align: center;
 }
 
 .cont-lis{
