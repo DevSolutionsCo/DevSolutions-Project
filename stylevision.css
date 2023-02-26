@@ -6,15 +6,11 @@ body{
     font-family: 'Roboto', sans-serif;
      margin: 0;
 }
-
-#mision{
+#vision{
     animation-duration: 2s;
     animation-name: apear1;
     animation-iteration-count:initial;
     animation-direction:normal;
-}
-#mision p{
-    font-size: 24px;
 }
 
 @keyframes apear1{
@@ -25,37 +21,40 @@ body{
     opacity: 1;
     }
 }
-#mision .containermision{
+#vision .containervision{
     text-align: center;
     padding: 200px 12px;
 }
 
-#mision{
-    background-color: #403d88;
-    color: white;
-    
-}
-
-#mision h2{
+#vision h2{
     font-size: 40px;
 }
 
+#vision{
+    background-color: #D2EDF8;
+    color: rgb(43, 43, 43);
+}
+
+#vision p{
+    font-size: 24px;
+}
+
 @media (min-width: 720px){
-    #mision .containermision{
+    #vision .containervision{
         display: flex;
         justify-content: space-evenly;
         padding: 130px 12px;
     }
 
-    #mision .img-mision{
-        background-image: url("imgs/mision.png");
+    #vision .img-vision{
+        background-image: url("imgs/vision.png");
         background-size: cover;
         background-position: center center;
         min-height: 500px;
-        min-width: 340px;
+        min-width: 600px;
     }
 
-    #mision .texto{
+    #vision .texto{
         width: 50%;
         text-align: initial;
         padding-left: 30px;
@@ -65,7 +64,7 @@ body{
         flex-direction: column;
     }
 
-    #mision h2{
+    #vision h2{
         margin-top: 0%;
     }
 }
