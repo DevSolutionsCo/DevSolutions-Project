@@ -1,3 +1,5 @@
+
+
 .ani2{
     animation-duration: 4s;
     animation-name: apear1;
@@ -72,6 +74,8 @@ figure img:hover{
     background-repeat: no-repeat;
     background-position: 100% 170%;
     position:absolute;
+    background-color: aliceblue;
+
 
 }
 

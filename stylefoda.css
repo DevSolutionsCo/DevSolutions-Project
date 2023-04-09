@@ -11,6 +11,9 @@ h1{
     background-repeat: no-repeat;
     background-position: 100% 200%;
     position:relative;
+    background-color: aliceblue;
+
+    
 }
 .ani2{
     animation-duration: 3s;

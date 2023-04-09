@@ -1,8 +1,7 @@
 .fondo{
-    background-image: url(imgs/fondo2.png);
-    background-repeat: no-repeat;
-    background-position: -5% 225%;
-    position:absolute;
+    background-color: aliceblue;
+
+    
 }
 h1{
     font-family:monospace;
@@ -59,12 +58,12 @@ h1{
     left: 40%;
 }
 
-ul{
+.textillos{
     left: 5rem;
     list-style-type: none;
 }
   
-ul li{
+.textos{
     padding-left: 2rem;
     background-image: url(imgs/flechaestra.png);
     background-position: 0 0;

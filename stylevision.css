@@ -5,6 +5,9 @@
 body{
     font-family: 'Roboto', sans-serif;
      margin: 0;
+     background-color: aliceblue;
+
+     
 }
 #vision{
     animation-duration: 2s;
@@ -27,8 +30,11 @@ body{
 }
 
 #vision h2{
-    font-size: 40px;
-}
+    font-family:monospace;
+    font-size: 50px;
+    color:rgb(100, 92, 215);
+    text-align: center;
+    font-weight:bold;}
 
 #vision{
     background-color: #D2EDF8;
@@ -66,5 +72,10 @@ body{
 
     #vision h2{
         margin-top: 0%;
+        font-family:monospace;
+        font-size: 50px;
+        color:rgb(100, 92, 215);
+        text-align: center;
+        font-weight:bold;
     }
 }

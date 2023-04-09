@@ -1,15 +1,15 @@
 body{
     background-color: aliceblue;
     margin: 30px;
+    
 
 }
 .titu{
-    text-align: center; 
-    margin-top: 0%;
-    margin-bottom: 0%;
-    font-size: 60px;
-    margin-left: 0%;
-    color: crimson;
+    font-family:monospace;
+    font-size: 50px;
+    color:rgb(100, 92, 215);
+    text-align: center;
+    font-weight:bold;
 }
 
 .info{
@@ -22,7 +22,7 @@ body{
     
     
 }
-li{
+.politiquillas{
     list-style-image: url(imgs/cheque.png);
     list-style-position: inside;
     line-height: 1.5;
