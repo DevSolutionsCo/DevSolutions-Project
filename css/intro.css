@@ -8,12 +8,15 @@
     justify-content: center;
     background: url("../imgs/fondoinicio.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-size: auto;
+    background-position: center center;
+    background-attachment: fixed;
+    
+    
 }
 
 #inicio .image img{
-    width: 85vh;
+    width: 75vh;
     animation: float 3s linear infinite;
 }
 
@@ -59,7 +62,11 @@
    
 }
 
-@media (max-width:730px){
+.content{
+    min-height: 100%;
+}
+
+@media (max-width:1202px){
     #inicio{
         flex-flow: column-reverse;
     }
