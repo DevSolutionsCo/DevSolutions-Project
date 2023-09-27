@@ -63,6 +63,7 @@
                   <li><a class="dropdown-item" href="http://devsolutions.gerdoc.com/TurisMaps./">TurisMaps</a></li>
                   <li><hr class="dropdown-divider"></li>
                   <li>Gracias por la visita</li>
+                    <li id="fecha"></li>
                 </ul>
               </li>
             </ul>
@@ -70,6 +71,7 @@
         </div>
       </nav>
 
+    
       <div class="cotainer-fluid" id="inicio">
         <div class="content container">
             <h3>DevSolutions </h3><span><h4>Great solutions for the future</h4></span>
@@ -88,5 +90,22 @@
             <img src="imgs/ComputadoraInicio.png" alt="">
         </div>
       </div>
+
+<script>
+  // Obtener la fecha actual
+  var fechaActual = new Date();
+
+  // Obtener los componentes de la fecha (día, mes, año)
+  var dia = fechaActual.getDate();
+  var mes = fechaActual.getMonth() + 1; // ¡Recuerda que los meses comienzan desde 0!
+  var anio = fechaActual.getFullYear();
+
+  // Formatear la fecha como desees (en este caso, DD/MM/AAAA)
+  var fechaFormateada = dia + '/' + mes + '/' + anio;
+
+  // Mostrar la fecha en un elemento HTML
+  document.getElementById('fecha').textContent = 'Fecha actual: ' + fechaFormateada;
+</script>
+    
 </body>
 </html>
